@@ -12,6 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.all{
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
 .grid{
   justify-content: center;
   display: grid;
