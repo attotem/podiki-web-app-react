@@ -1,24 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import Card from './Components/Card';
-import liquid from './Photos/liquid.png'
+import powerbank from './Photos/powerbank.png'
+import iqos from './Photos/iqos.png'
 import vape from './Photos/vape.png'
-// import cartridge from './Photos/cartridge.png'
-import disposable from './Photos/disposable.png'
-import liquid_sol from './Photos/liquid _sol.png'
-import diy from './Photos/diy.png'
+import nag from './Photos/nag.png'
+import glo from './Photos/glo.png'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 
-    <Card img={liquid_sol} title="Ситсеми нагрівання тютюну"/>
-    <Card img={liquid} title="Iqos"/>
-    <Card img={diy} title="GLO"/>
-    <Card img={disposable} title="JOUZ"/>
-    <Card img={vape} title="Павербанки та зар. станції"/>
-    {/* <Card img={cartridge} title="Картриджи/Випаровувачі"/> */}
+    <Card img={nag} title="Ситсеми нагрівання тютюну"/>
+    <Card img={iqos} title="Iqos"/>
+    <Card img={glo} title="GLO"/>
+    <Card img={vape} title="JOUZ"/>
+    <Card img={powerbank} title="Павербанки та зар. станції"/>
+    
     
   </React.StrictMode>
 );
