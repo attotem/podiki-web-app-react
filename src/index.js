@@ -11,7 +11,7 @@ import glo from './Photos/glo.png'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 
-    <Card img={nag} title="Ситсеми нагрівання тютюну"/>
+    <Card img={nag} title="Системи нагрівання тютюну"/>
     <Card img={iqos} title="Iqos"/>
     <Card img={glo} title="GLO"/>
     <Card img={vape} title="JOUZ"/>
