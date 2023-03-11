@@ -5,7 +5,7 @@ import './index.css';
 import Card from './Components/Card';
 import liquid from './Photos/liquid.png'
 import vape from './Photos/vape.png'
-import cartridge from './Photos/cartridge.png'
+// import cartridge from './Photos/cartridge.png'
 import disposable from './Photos/disposable.png'
 import liquid_sol from './Photos/liquid _sol.png'
 import diy from './Photos/diy.png'
@@ -13,7 +13,6 @@ import diy from './Photos/diy.png'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 
-    
     <Card img={liquid_sol} title="Ситсеми нагрівання тютюну"/>
     <Card img={liquid} title="Iqos"/>
     <Card img={diy} title="GLO"/>
